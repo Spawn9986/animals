@@ -15,10 +15,14 @@ function App() {
         setAnimals([...animals, getRandomAnimal()]);
     };
     
+const renderedAnimals = animals.map((animal, index) => {
+    return <AnimalShow type={animal} key={index} />
+})
+
     return <div>
         {/*pass the handleClick function as a prop to button*/}
         <button onClick={handleClick}>Add Animal</button>
-        <div>{animals}</div>
+        <div>{renderedAnimals}</div>
         
     </div>
 }
