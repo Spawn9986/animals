@@ -1,12 +1,12 @@
 import './AnimalShow.css';
 import { useState } from 'react';
-import bird from './svg/bird.svg'
-import cat from './svg/cat.svg'
-import cow from './svg/cow.svg'
-import dog from './svg/dog.svg'
-import gator from './svg/gator.svg'
-import horse from './svg/horse.svg'
-import heart from './svg/heart.svg'
+import bird from './images/bird.svg'
+import cat from './images/cat.svg'
+import cow from './images/cow.svg'
+import dog from './images/dog.svg'
+import gator from './images/gator.svg'
+import horse from './images/horse.svg'
+import heart from './images/heart.svg'
 
 const svgMap = {
     bird,
