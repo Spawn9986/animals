@@ -4,6 +4,10 @@
 
 <p id="description">Create a web app that will create a button for the user to click and generate a new animal each time. It will also have a heart icon likened to a "like" feature that will increase in size each time the user clicks it to show the user's fondness of the particular animal</p>
 
+<h2>Project Screenshots:</h2>
+
+<img src="https://github.com/Spawn9986/animals/blob/main/src/images/animalFinal.png" alt="project-screenshot" width="724" height="387/">
+
   
   
 <h2>💻 Built with</h2>
